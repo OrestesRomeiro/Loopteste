@@ -4,7 +4,7 @@
 |---|---|
 | Versão | 0.4 |
 | Data | 2026-08-06 |
-| Status | Rascunho — aguardando aprovação do sponsor |
+| Status | Aprovado |
 | Sponsor / decisor | Orestes |
 | Executores | Claude (Opus = design e julgamento; Sonnet = operação e manutenção) |
 | Fonte da verdade | Branch `main` do repositório `OrestesRomeiro/Loopteste`. Anexos são arquivos separados, indexados na §6.3 |
