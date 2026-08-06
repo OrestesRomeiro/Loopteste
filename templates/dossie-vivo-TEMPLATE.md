@@ -1,8 +1,8 @@
 ---
 artefato: dossie-vivo
 empresa: <TICKER>
-classe_validade: C          # PENDENTE ADR-016 — ver §8.3 deste arquivo
-finalidade: analise         # analise | teste-de-ferramenta — PENDENTE ADR-016
+classe_validade: C          # contêiner (ADR-016)
+finalidade: analise         # analise | teste-de-ferramenta (ADR-016)
 as_of: AAAA-MM-DD           # data da última atualização deste arquivo
 status: Vigente
 depende_de: []              # o dossiê agrega; dependências vivem em cada artefato indexado
@@ -152,14 +152,11 @@ executor: {modelo: <nome+versão>, revisor: <humano|Opus>}
 4. **Ordem de leitura para uma sessão de E5:** §1.3 → §1.4 → §2.1 → §7 (últimas entradas). Só se
    houver alerta é que se abre artefato completo.
 
-### 8.3 Pendências normativas deste template
+### 8.3 Base normativa do cabeçalho
 
-- **`classe_validade: C`** não existe hoje na §4.5 do mestre (só P/F/D). O Dossiê Vivo é contêiner:
-  não vence por preço, por evento nem por data de revisão própria — vence por vencimento dos
-  artefatos que indexa. Proposto como **ADR-016**, pendente de aprovação do sponsor.
-- **Campo `finalidade`** é exigido pela §10.5 do mestre para artefatos de teste, mas não consta do
-  cabeçalho normativo da §4.5. Proposto como parte da **ADR-016** (obrigatório em todo artefato,
-  default `analise`).
+O cabeçalho acima segue a §4.5 do mestre com as extensões da **ADR-016** (aprovada em 2026-08-06):
+classe de validade **C** para artefatos contêiner, e campo **`finalidade`** obrigatório em todo
+artefato, com default `analise`. Artefato sobre o controle negativo leva `teste-de-ferramenta` (§10.5).
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 artefato: dossie-vivo
 empresa: ANIM3
-classe_validade: C          # PENDENTE ADR-016
-finalidade: analise         # PENDENTE ADR-016
+classe_validade: C          # contêiner (ADR-016)
+finalidade: analise         # ADR-016
 as_of: 2026-08-06
 status: Vigente
 depende_de: [fontes/indice-fontes.md]
@@ -130,4 +130,5 @@ risco/beta fixado, nenhuma execução de E1 é válida) e até o consenso manual
 | Versão | Data | Mudanças | Executor |
 |---|---|---|---|
 | 0.1 | 2026-08-06 | Criação do esqueleto a partir de `templates/dossie-vivo-TEMPLATE.md`. Nenhum campo de fato preenchido. | Opus (sessão de chat) |
+| 0.3 | 2026-08-06 | Marcadores de pendência removidos após aprovação da ADR-016. | Opus (sessão de chat) |
 | 0.2 | 2026-08-06 | Sessão 1 do passe 1 de E0. §1.1 preenchida a partir de S-01 e S-02; tabela de artefatos, §2 e log atualizados. Estrutura de controle registrada como `[I]` em aberto. | Opus (sessão de chat) |

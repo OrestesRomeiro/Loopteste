@@ -2,7 +2,7 @@
 artefato: expectativa-selada
 empresa: PETR4
 classe_validade: F
-finalidade: teste-de-ferramenta          # §10.5 do mestre — PENDENTE ADR-016 quanto ao campo
+finalidade: teste-de-ferramenta          # §10.5 do mestre + ADR-016
 as_of: AAAA-MM-DD                        # data em que o sponsor preenche
 status: Vigente
 depende_de: []

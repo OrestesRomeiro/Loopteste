@@ -1,7 +1,7 @@
 ---
 artefato: indice-fontes
 empresa: ANIM3
-classe_validade: C          # PENDENTE ADR-016
+classe_validade: C          # contêiner (ADR-016)
 finalidade: analise
 as_of: 2026-08-06
 status: Vigente
